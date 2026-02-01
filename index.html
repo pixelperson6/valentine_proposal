@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="background-hearts"></div>
+    
+    <main class="container">
+        <div class="card">
+            <header>
+                <h1 class="font-outfit animate-fade-in-up">Hey FUCHU ❤️</h1>
+            </header>
+            
+            <div class="image-container animate-pop-in">
+                <img src="./hero.png" alt="Cute Valentine Bear" class="hero-image">
+            </div>
+
+            <h2 id="question" class="font-vibes animate-fade-in-up delay-1">Will you be my Valentine?</h2>
+            
+            <div class="buttons" id="button-group">
+                <button id="yesBtn" class="btn btn-yes animate-bounce">Yes, absolutely!</button>
+                <button id="noBtn" class="btn btn-no">No</button>
+            </div>
+
+            <div id="celebration" class="hidden animate-zoom-in">
+                <div class="celebration-content">
+                    <h2 class="font-vibes">Yay! Thank you for being my Valentine! ❤️</h2>
+                    <p class="font-outfit sub-text">Can't wait to celebrate with you!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
